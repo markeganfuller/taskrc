@@ -28,3 +28,6 @@ urgency.uda.estimate.L.coefficient=-1.5
 # Tweak the default report to include Est
 report.next.labels=ID,Age,P,Est,Tag,Due,Description,Urg
 report.next.columns=id,start.age,priority,estimate,tags,due,description,urgency
+
+# Case insensitive search
+search.case.sensitive=no
