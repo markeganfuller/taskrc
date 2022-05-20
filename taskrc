@@ -9,10 +9,12 @@ urgency.blocking.coefficient=1.0
 urgency.tags.coefficient=0
 urgency.annotations.coefficient=0
 # Actually urgent tags
-urgency.user.tag.customer_facing.coefficient=1.0
-urgency.user.tag.critical.coefficient=2.0
+urgency.user.tag.customer_facing.coefficient=1.5
+urgency.user.tag.critical.coefficient=4.0
 # Postponed stuff
-urgency.user.tag.postponed.coefficient=-5
+urgency.user.tag.postponed.coefficient=-10
+# Onsite stuff, low priority due to COVID
+urgency.user.tag.onsite.coefficient=-4
 # Default to Medium priority
 uda.priority.default=M
 # Estimate UDA, small medium or large
